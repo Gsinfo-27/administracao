@@ -51,10 +51,6 @@ logs/
 log/
 *.out
 
-# =============================
-# Maven
-# =============================
-.mvn/wrapper/maven-wrapper.jar
 
 # =============================
 # Outros arquivos desnecessários
