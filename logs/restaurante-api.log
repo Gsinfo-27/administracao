@@ -6182,3 +6182,34 @@ Caused by: java.net.UnknownHostException: dpg-d4i2omjuibrs73du8tbg-a.oregon-post
         first ? rows only
 2025-12-06T08:29:03.355+02:00  WARN 21824 --- [HikariPool-POSTGRE:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-POSTGRE - Failed to validate connection org.postgresql.jdbc.PgConnection@5a1b3029 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
 2025-12-06T08:29:34.404+02:00  WARN 21824 --- [HikariPool-POSTGRE:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-POSTGRE - Failed to validate connection org.postgresql.jdbc.PgConnection@2e8fad3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-06T08:29:50.776+02:00  WARN 21824 --- [HikariPool-POSTGRE:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-POSTGRE - Failed to validate connection org.postgresql.jdbc.PgConnection@1c464f64 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-06T08:30:25.835+02:00  WARN 21824 --- [HikariPool-POSTGRE:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-POSTGRE - Failed to validate connection org.postgresql.jdbc.PgConnection@1b779509 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-06T08:30:35.872+02:00  WARN 21824 --- [HikariPool-POSTGRE:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-POSTGRE - Failed to validate connection org.postgresql.jdbc.PgConnection@57af2ccb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-06T08:30:39.108+02:00  WARN 21824 --- [HikariPool-POSTGRE:connection-adder] com.zaxxer.hikari.pool.PoolBase          : HikariPool-POSTGRE - Pool is empty, failed to create/setup connection (565dabba-8471-4736-bce0-01983aed8650)
+
+org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:385) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:57) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:279) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.makeConnection(Driver.java:448) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.8.jar:42.7.8]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:144) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:373) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:210) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:488) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:752) ~[HikariCP-7.0.2.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:731) ~[HikariCP-7.0.2.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.UnknownHostException: dpg-d4i2omjuibrs73du8tbg-a.oregon-postgres.render.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:261) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:122) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:146) ~[postgresql-42.7.8.jar:42.7.8]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:289) ~[postgresql-42.7.8.jar:42.7.8]
+	... 14 common frames omitted
+
