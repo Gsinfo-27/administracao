@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="330261ab-a4df-44f9-a1ec-53640241c1c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/administracao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/ServicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/ApiKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/CustomUserDatail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/ClaudinaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/ApiKeyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyPageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyStatusUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyValidationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ChangePasswordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ProfileImageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/UserListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/ApiKeyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/InfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/SecurityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/JWTGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/SecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/ToolSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/ApiKeyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/resources/application-admin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/resources/application-adminlocal.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/variaveis.env" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gsinfo-27&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gsinfo-27/administracao.git&quot;,
+    &quot;accountId&quot;: &quot;4a3fb337-441e-42ff-9852-bc6ecc561856&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36NevqWM23cxbRmNQncrnbfzkRx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GestaoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rede Local.executor&quot;: &quot;Run&quot;,
+    &quot;Application.active=admin .executor&quot;: &quot;Run&quot;,
+    &quot;Application.local.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gestao [clean,install,-U].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gestao [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gestao [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tridon/IdeaProjects/administracao/gestao/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="admin.gestao.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tridon\IdeaProjects\administracao\gestao\src\main\resources" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="admin.gestao.auth" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+      <command value="mvn clean" />
+      <command value="mvn clean install -U " />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="GestaoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="admin.gestao.GestaoApplication" />
+      <module name="restaurante" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="admin.gestao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=admin " />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GestaoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="330261ab-a4df-44f9-a1ec-53640241c1c5" name="Changes" comment="" />
+      <created>1764851692676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764851692676</updated>
+    </task>
+    <servers />
+  </component>
+</project>

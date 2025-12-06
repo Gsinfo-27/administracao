@@ -1,0 +1,11 @@
+### Logs e temporários ###
+*.log
+*.tmp
+*.bak
+
+### Build e binários ###
+/target/
+*.jar
+# Arquivos temporários do Vim
+*.swp
+*.swo
