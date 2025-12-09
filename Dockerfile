@@ -12,7 +12,7 @@ COPY pom.xml .
 RUN mvn dependency:go-offline -B
 
 # Copia o código-fonte
-COPY src ./src
+COPY gestao/src ./src
 
 # Compila + empacota o JAR final
 RUN mvn -e -DskipTests package
