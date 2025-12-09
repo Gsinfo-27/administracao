@@ -7,12 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="restaurante" />
+        <module name="gestao" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="restaurante" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gestao" options="-parameters" />
       <module name="restaurante" options="-parameters" />
     </option>
   </component>

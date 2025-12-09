@@ -6,7 +6,7 @@ FROM maven:3.9.6-eclipse-temurin-17 AS builder
 WORKDIR /app
 
 # Copia o POM para cache de dependências
-COPY pom.xml .
+COPY gestao/pom.xml .
 
 # Baixa dependências sem compilar o código
 RUN mvn dependency:go-offline -B

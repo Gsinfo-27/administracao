@@ -4,41 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330261ab-a4df-44f9-a1ec-53640241c1c5" name="Changes" comment="actualizei o git ignore">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/model/EmailModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/services/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/services/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/setings/MailgunConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/EmailDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/EmailStatus.java" afterDir="false" />
+    <list default="true" id="330261ab-a4df-44f9-a1ec-53640241c1c5" name="Changes" comment="movimentacao de ficheiro para raiz">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/gsinfo/setings/ApiConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/ServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/gsinfo/services/ServicesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/ApiKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/ApiKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/CustomUserDatail.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/CustomUserDatail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/Security.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/ClaudinaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/claudinary/services/ClaudinaryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/claudinary/setings/configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/ApiKeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/controllers/ApiKeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/controllers/SecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyCreateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyCreateDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/ApiKeyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/ApiKeyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/InfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/InfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/SecurityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/JWTGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/JWTGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/SecurityFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/ToolSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/ToolSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/ApiKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/services/ApiKeyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/services/SecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao/src/main/resources/application-admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/resources/application-admin.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +28,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -81,29 +59,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GestaoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rede Local.executor&quot;: &quot;Run&quot;,
-    &quot;Application.active=admin .executor&quot;: &quot;Run&quot;,
-    &quot;Application.local.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gestao [clean,install,-U].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gestao [clean,package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gestao [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tridon/IdeaProjects/administracao/gestao/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GestaoApplication.executor": "Run",
+    "Application.Rede Local.executor": "Run",
+    "Application.active=admin .executor": "Run",
+    "Application.local.executor": "Run",
+    "Docker.Docker-compose.yml: Compose Deployment.executor": "Run",
+    "Maven.gestao [clean,install,-U].executor": "Run",
+    "Maven.gestao [clean,package,-DskipTests].executor": "Run",
+    "Maven.gestao [clean,package].executor": "Run",
+    "Maven.gestao [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Tridon/IdeaProjects/administracao/gestao",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="admin.gestao.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tridon\IdeaProjects\administracao\gestao\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tridon\IdeaProjects\administracao" />
+      <recent name="C:\Users\Tridon\IdeaProjects\administracao\gestao" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="admin.gestao.auth" />
@@ -121,6 +105,7 @@
       <command value="mvn clean package" />
       <command value="mvn clean" />
       <command value="mvn clean install -U " />
+      <command value="mvn clean package -DskipTests " />
     </option>
   </component>
   <component name="RunManager">
@@ -128,7 +113,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="admin.gestao.GestaoApplication" />
-      <module name="restaurante" />
+      <module name="gestao" />
       <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=admin" />
       <extension name="coverage">
         <pattern>
@@ -168,6 +153,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="administracao" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="administracao" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GestaoApplication" />
@@ -199,13 +197,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765005025439</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="preparado para subir">
+      <option name="closed" value="true" />
+      <created>1765290373411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765290373411</updated>
+    </task>
+    <task id="LOCAL-00004" summary="movimentacao de ficheiro para raiz">
+      <option name="closed" value="true" />
+      <created>1765291307736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765291307736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="inicio do progecto" />
     <MESSAGE value="actualizei o git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="actualizei o git ignore" />
+    <MESSAGE value="preparado para subir" />
+    <MESSAGE value="movimentacao de ficheiro para raiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="movimentacao de ficheiro para raiz" />
   </component>
 </project>
