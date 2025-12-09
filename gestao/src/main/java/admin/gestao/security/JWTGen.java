@@ -1,6 +1,6 @@
 package admin.gestao.security;
 
-import admin.gestao.auth.Users;
+import admin.gestao.auth.model.Users;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTVerificationException;

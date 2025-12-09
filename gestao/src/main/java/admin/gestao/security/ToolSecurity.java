@@ -47,13 +47,13 @@ public class ToolSecurity {
                         .requestMatchers("/api/security/access/**").permitAll()
                         .requestMatchers("/api/test-services/**").permitAll()
                         .requestMatchers("/api/keys/**").permitAll()
+                        .requestMatchers("/api/sms/**").permitAll()
                         .requestMatchers("/api/security/**").hasRole("ADMIN")
-
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
-    }///api/test-services/api/keys
+    }////api/email
 
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {

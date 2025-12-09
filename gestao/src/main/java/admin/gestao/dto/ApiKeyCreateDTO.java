@@ -13,5 +13,4 @@ import java.util.UUID;
 public class ApiKeyCreateDTO {
     private String cliente;
     private String endpoint;
-    private UUID idUser;
 }

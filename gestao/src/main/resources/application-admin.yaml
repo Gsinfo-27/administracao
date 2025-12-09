@@ -13,43 +13,42 @@ spring:
         order_inserts: true
         order_updates: true
 
-  mail:
-    host: ${SPRING_MAIL_HOST:smtp.example.com}
-    port: ${SPRING_MAIL_PORT:587}
-    username: ${SPRING_MAIL_USERNAME:seu-email@example.com}
-    password: ${SPRING_MAIL_PASSWORD:sua-senha}
-    properties:
-      mail:
-        smtp:
-          auth: ${SPRING_MAIL_PROPERTIES_MAIL_SMTP_AUTH:true}
-          starttls:
-            enable: ${SPRING_MAIL_PROPERTIES_MAIL_SMTP_STARTTLS_ENABLE:true}
+# =========================
+# Configurações de SMS (Twilio)
+# =========================
+twilio:
+  account-sid: AC7aa722dca0698c11e5346fb8f416a78c
+  auth-token: 4e514c93867d39e776017049d5a9da3f
+  phone-number: +12523765951  # número Twilio
 
-  cloudinary:
-    cloud-name: ${CLOUDINARY_CLOUD_NAME:TridonJ}
-    api-key: ${CLOUDINARY_API_KEY:344387927618419}
-    api-secret: ${CLOUDINARY_API_SECRET:9fXOuROqwoxx2wlObPaPwKQBzuo}
+cloudinary:
+  cloud-name: TridonJ
+  api-key: 344387927618419
+  api-secret: 9fXOuROqwoxx2wlObPaPwKQBzuo
 
-  cache:
-    type: redis
-    redis:
-      host: ${SPRING_REDIS_HOST:localhost}
-      port: ${SPRING_REDIS_PORT:6379}
-      time-to-live: 3600000
+sendgrid:
+  api-key: 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
+
+
+cache:
+  type: redis
+  redis:
+    host: localhost
+    port: 6379
+    time-to-live: 3600000
 
 jwt:
   security:
     token:
-      secret: ${JWT_SECURITY_TOKEN_SECRET:eununcatetrai}
-      expiration: ${JWT_SECURITY_TOKEN_EXPIRATION:86400000}
-      refresh-expiration: ${JWT_SECURITY_TOKEN_REFRESH_EXPIRATION:2592000000}
-      issuer: ${JWT_SECURITY_TOKEN_ISSUER:api-restaurante}
+      secret: eununcatetrai
+      expiration: 86400000
+      refresh-expiration: 2592000000
+      issuer: api-restaurante
     whitelist:
       - "/api/auth/**"
       - "/api/public/**"
       - "/v3/api-docs/**"
       - "/swagger-ui/**"
-      - "/swagger-resources/**"
   version: 1.0.0
   pagination:
     default-page-size: 10
@@ -92,7 +91,7 @@ logging:
     max-size: 10MB
 
 server:
-  port: ${SERVER_PORT:8084}
+  port: 8084
   servlet:
     session:
       timeout: 30m
@@ -115,6 +114,7 @@ spring:
     username: restaurantedb_uv1w_user
     password: jgpxEK5C4fwJe2BCrZcRQu1M91jyAQIN
     driver-class-name: org.postgresql.Driver
+
     hikari:
       pool-name: HikariPool-POSTGRE
       connection-timeout: 30000
@@ -127,8 +127,8 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: ${SPRING_JPA_HIBERNATE_DDL_AUTO:update}
+      ddl-auto: update
       dialect: org.hibernate.dialect.PostgreSQLDialect
-      jdbc:
-        lob:
-          non_contextual_creation: true
+    jdbc:
+      lob:
+        non_contextual_creation: true

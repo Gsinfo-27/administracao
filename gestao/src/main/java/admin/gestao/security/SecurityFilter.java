@@ -1,13 +1,11 @@
 package admin.gestao.security;
 
-import admin.gestao.repository.UserRepository;
+import admin.gestao.auth.repository.UserRepository;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -105,6 +103,7 @@ public class SecurityFilter extends OncePerRequestFilter {
             String path = request.getRequestURI();
             return path.startsWith("/api/keys") ||
                     path.startsWith("/api/user") ||
+                    path.startsWith("/api/sms") ||
                     path.startsWith("/api/security/access") ||
                     path.startsWith("/api/test-services");
 

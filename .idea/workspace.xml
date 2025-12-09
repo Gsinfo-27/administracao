@@ -4,57 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330261ab-a4df-44f9-a1ec-53640241c1c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/administracao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/Services.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/ServicesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/ApiKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/CustomUserDatail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Security.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/ClaudinaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/ApiKeyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/SecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/UsersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyCreateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyPageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyStatusUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyValidationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ChangePasswordDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/CreateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ProfileImageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/UserListDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/ApiKeyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/InfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/SecurityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/JWTGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/ToolSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/ApiKeyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/resources/application-admin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/src/main/resources/application-adminlocal.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestao/variaveis.env" afterDir="false" />
+    <list default="true" id="330261ab-a4df-44f9-a1ec-53640241c1c5" name="Changes" comment="actualizei o git ignore">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/controller/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/model/EmailModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/services/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/services/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/emaill/setings/MailgunConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/EmailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/EmailStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/gsinfo/setings/ApiConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/ServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/gsinfo/services/ServicesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/ApiKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/ApiKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/CustomUserDatail.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/CustomUserDatail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/Security.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/model/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/ClaudinaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/claudinary/services/ClaudinaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/claudinary/configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/api/claudinary/setings/configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/ApiKeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/controllers/ApiKeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/controllers/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyCreateDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/dto/ApiKeyCreateDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/ApiKeyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/ApiKeyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/InfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/InfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/SecurityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/SecurityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/JWTGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/JWTGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/ToolSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/security/ToolSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/ApiKeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/services/ApiKeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/services/SecurityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/java/admin/gestao/auth/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao/src/main/resources/application-admin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gestao/src/main/resources/application-admin.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -123,6 +107,13 @@
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="admin.gestao.auth" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="admin.gestao.api.claudinary.setings" />
+      <recent name="admin.gestao.api.claudinary.services" />
+      <recent name="admin.gestao.api.gsinfo.services" />
+      <recent name="admin.gestao.api.gsinfo.setings" />
+      <recent name="admin.gestao.auth.services" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -192,6 +183,29 @@
       <option name="presentableId" value="Default" />
       <updated>1764851692676</updated>
     </task>
+    <task id="LOCAL-00001" summary="inicio do progecto">
+      <option name="closed" value="true" />
+      <created>1765002600199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765002600199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="actualizei o git ignore">
+      <option name="closed" value="true" />
+      <created>1765005025439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765005025439</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="inicio do progecto" />
+    <MESSAGE value="actualizei o git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizei o git ignore" />
   </component>
 </project>
