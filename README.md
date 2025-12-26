@@ -74,4 +74,4 @@ Ideal para sistemas que precisam controlar acessos e gerenciar perfis de usuári
 
 1. Clone o repositório:  
 ```bash
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/Gsinfo-27/administracao.git
