@@ -18,14 +18,13 @@ public class ApiConfiguration {
     private final WebClient client2;
 
     public ApiConfiguration() {
-        // Configura ObjectMapper para datas (opcional)
+
         ObjectMapper mapper = new ObjectMapper();
         mapper.registerModule(new JavaTimeModule());
         mapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
 
-        // Apenas cria os WebClients, sem custom encoder/decoder
         this.client1 = WebClient.builder()
-                .baseUrl("https://api-restaurante-1-6u7x.onrender.com")
+                .baseUrl("https://api-restaurante-90hg.onrender.com")
                 .build();
 
         this.client2 = WebClient.builder()
