@@ -123,7 +123,7 @@ spring:
       idle-timeout: 600000
       max-lifetime: 1800000
       validation-timeout: 5000
-      connection-test-query: SELECT 1
+      connection-init-query: SELECT 1
 
   jpa:
     hibernate:
