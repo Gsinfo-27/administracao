@@ -1,58 +1,80 @@
-# =========================
-# Configurações comuns (sempre carregadas)
-# =========================
+
 spring:
+  application:
+    name: api-restaurante
+
   jpa:
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
-        format_sql: true
+        format_sql: false
         jdbc:
           batch_size: 50
           fetch_size: 100
         order_inserts: true
         order_updates: true
 
-# =========================
-# Configurações de SMS (Twilio)
-# =========================
+  cache:
+    type: redis
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      timeout: 60000
+
+# =====================================================
+# TWILIO
+# =====================================================
+
 twilio:
-  account-sid: AC7aa722dca0698c11e5346fb8f416a78c
-  auth-token: 4e514c93867d39e776017049d5a9da3f
-  phone-number: +12523765951  # número Twilio
+  account-sid: ${TWILIO_ACCOUNT_SID}
+  auth-token: ${TWILIO_AUTH_TOKEN}
+  phone-number: ${TWILIO_PHONE_NUMBER}
+
+# =====================================================
+# CLOUDINARY
+# =====================================================
 
 cloudinary:
-  cloud-name: TridonJ
-  api-key: 344387927618419
-  api-secret: 9fXOuROqwoxx2wlObPaPwKQBzuo
+  cloud-name: ${CLOUDINARY_CLOUD_NAME}
+  api-key: ${CLOUDINARY_API_KEY}
+  api-secret: ${CLOUDINARY_API_SECRET}
+
+# =====================================================
+# SENDGRID
+# =====================================================
 
 sendgrid:
-  api-key: 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
+  api-key: ${SENDGRID_API_KEY}
 
-
-cache:
-  type: redis
-  redis:
-    host: localhost
-    port: 6379
-    time-to-live: 3600000
+# =====================================================
+# JWT
+# =====================================================
 
 jwt:
   security:
     token:
-      secret: eununcatetrai
-      expiration: 86400000
-      refresh-expiration: 2592000000
-      issuer: api-restaurante
+      secret: ${JWT_SECRET}
+      expiration: ${JWT_EXPIRATION:86400000}
+      refresh-expiration: ${JWT_REFRESH_EXPIRATION:2592000000}
+      issuer: ${JWT_ISSUER:api-restaurante}
+
     whitelist:
       - "/api/auth/**"
       - "/api/public/**"
       - "/v3/api-docs/**"
       - "/swagger-ui/**"
+
   version: 1.0.0
+
   pagination:
     default-page-size: 10
     max-page-size: 50
+
+# =====================================================
+# SPRINGDOC / SWAGGER
+# =====================================================
 
 springdoc:
   swagger-ui:
@@ -64,10 +86,14 @@ springdoc:
   default-consumes-media-type: application/json
   default-produces-media-type: application/json
 
+# =====================================================
+# CORS
+# =====================================================
+
 cors:
   allowed-origins:
-    - "http://localhost:3000"
-    - "http://127.0.0.1:3000"
+    - ${CORS_ALLOWED_ORIGIN_1:http://localhost:3000}
+    - ${CORS_ALLOWED_ORIGIN_2:http://127.0.0.1:3000}
   allowed-methods: GET,POST,PUT,DELETE,PATCH,OPTIONS
   allowed-headers: "*"
   exposed-headers:
@@ -77,21 +103,25 @@ cors:
   allow-credentials: true
   max-age: 3600
 
+# =====================================================
+# LOGGING
+# =====================================================
+
 logging:
   level:
     root: INFO
     org.springframework: INFO
     org.hibernate: WARN
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     gsinfo.restaurante: DEBUG
   file:
     name: logs/restaurante-api.log
-    max-history: 30
-    max-size: 10MB
+
+# =====================================================
+# SERVER
+# =====================================================
 
 server:
-  port: 8084
+  port: ${SERVER_PORT:8084}
   servlet:
     session:
       timeout: 30m
@@ -100,9 +130,10 @@ server:
       enabled: true
       force: true
 
-# =========================
-# Profile PostgreSQL (ADMIN)
-# =========================
+# =====================================================
+# PROFILE: ADMIN (POSTGRESQL)
+# =====================================================
+
 ---
 spring:
   config:
@@ -110,9 +141,9 @@ spring:
       on-profile: admin
 
   datasource:
-    url: jdbc:postgresql://ep-floral-dawn-ahqlyuea-pooler.c-3.us-east-1.aws.neon.tech:5432/admin?sslmode=require&preferQueryMode=simple
-    username: neondb_owner
-    password: npg_nkqN2r8oSgjL
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
     hikari:
@@ -127,8 +158,10 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
-      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: validate   # 🔒 nunca use update em produção
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
     jdbc:
       lob:
         non_contextual_creation: true
